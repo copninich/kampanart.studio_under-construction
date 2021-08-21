@@ -17,7 +17,7 @@ export default class Headset extends Component {
             <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
             <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
            
-            <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+            <Script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></Script>
             <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
         
             <link id="pagestyle" href="./assets/css/soft-design-system.css?v=1.0.5" rel="stylesheet" />

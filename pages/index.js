@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Headset from './Components/Headset'
 import Mainpage from './Components/Mainpage'
 import Corejs from './Components/Corejs'
+import Script from 'next/script'
 
 
 export default function Home() {
