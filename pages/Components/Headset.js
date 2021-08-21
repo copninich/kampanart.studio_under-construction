@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import Script from 'next/script'
 
 export default class Headset extends Component {
     render (){
