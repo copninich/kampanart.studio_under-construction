@@ -1,0 +1,46 @@
+/* body{
+    background: rgb(240,135,227);
+    background: linear-gradient(90deg, rgba(240,135,227,1) 0%, rgba(246,98,134,1) 100%);
+} */
+body{
+    background:linear-gradient(111.94deg,#ffeb3b 0%,#e91e63 65%,#673ab7 100%);
+}
+.container-fluid{
+    max-width: 95%;
+    
+}
+.box{
+    background-color: white;
+    border-radius: 15px;
+    border: solid black 3px;
+}
+.box-comment{
+    background-color: white;
+    border-radius: 30px;
+    height: 54px;
+    
+}
+.f1{
+    font-family: 'IBM Plex Sans Thai', sans-serif !important;
+}
+p,h6,h5,h4,h3,h2,h1{
+    font-family: 'IBM Plex Sans Thai', sans-serif !important;
+}
+#circle-1 {
+    background: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+#circle-2 {
+    background: yellow;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+#circle-3 {
+    background: green;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
