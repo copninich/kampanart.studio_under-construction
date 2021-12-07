@@ -2,12 +2,27 @@
     background: rgb(240,135,227);
     background: linear-gradient(90deg, rgba(240,135,227,1) 0%, rgba(246,98,134,1) 100%);
 } */
-body{
-    background:linear-gradient(111.94deg,#ffeb3b 0%,#e91e63 65%,#673ab7 100%);
+
+.bg{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    background-size: cover;
+    box-shadow: 2px 5px 30px rgb(0 0 0 / 30%);
+    color: #fff;
 }
-.container-fluid{
-    max-width: 95%;
-    
+.bg:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.9;
+    background:linear-gradient(111.94deg,#ffeb3b 0%,#e91e63 65%,#673ab7 100%);
 }
 .box{
     background-color: white;
@@ -21,10 +36,10 @@ body{
     
 }
 .f1{
-    font-family: 'IBM Plex Sans Thai', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 p,h6,h5,h4,h3,h2,h1{
-    font-family: 'IBM Plex Sans Thai', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 #circle-1 {
     background: red;

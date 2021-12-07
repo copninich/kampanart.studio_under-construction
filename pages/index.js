@@ -8,15 +8,18 @@ import Corejs from './Components/Corejs'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Headset />
       <body className="index-page">
-        <Mainpage />
-        <Corejs />
+        <div className="bg" style={{backgroundImage: "url(../assets/img/cop.png)",width:"100%",backgroundRepeat:"no-repeat",backgroundAttachment:"fixed",backgroundPosition:"center"}}>
+          <Mainpage />
+          <Corejs />
+        </div>
+        
       </body>
       
      
-    </div>
+    </>
     
     
   )
